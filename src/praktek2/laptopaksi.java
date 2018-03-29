@@ -9,5 +9,6 @@ public class laptopaksi {
         
         adil.cetakInfo();
         System.out.println("totalpembayaran = "+adil.liat());
+        adil.cetak();
     }
 }
