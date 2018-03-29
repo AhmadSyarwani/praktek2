@@ -3,6 +3,11 @@ package praktek2;
 public class laptop {
     Integer jumlahbarang;
     Integer harga;
+
+    public laptop() {
+        jumlahbarang=10;
+        harga=9000000;
+    }
     
     void cetakInfo (){
         System.out.println("============================");
@@ -15,4 +20,7 @@ public class laptop {
         totalbayar = jumlahbarang*harga;
         return totalbayar;    
     }
+     void cetak(){
+        System.out.println("Harga barang: "+liat());
+     }
 }
