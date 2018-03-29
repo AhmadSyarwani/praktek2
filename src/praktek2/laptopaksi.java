@@ -10,5 +10,11 @@ public class laptopaksi {
         adil.cetakInfo();
         System.out.println("totalpembayaran = "+adil.liat());
         adil.cetak();
+        
+        laptop udin=new laptop();
+        udin.cetakInfo();
+        
+        laptop didin = new laptop(5,7000000);
+        didin.cetakInfo();
     }
 }

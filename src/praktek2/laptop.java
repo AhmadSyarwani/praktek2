@@ -8,6 +8,11 @@ public class laptop {
         jumlahbarang=10;
         harga=9000000;
     }
+
+    public laptop(Integer jumlahbarang, Integer harga) {
+        this.jumlahbarang = jumlahbarang;
+        this.harga = harga;
+    }
     
     void cetakInfo (){
         System.out.println("============================");
