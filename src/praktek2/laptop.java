@@ -1,6 +1,6 @@
 package praktek2;
 
-public class NewClass {
+public class laptop {
     Integer jumlahbarang;
     Integer harga;
     

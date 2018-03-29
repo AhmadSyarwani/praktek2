@@ -1,7 +1,8 @@
 package praktek2;
 
-public class aksi {
+public class laptopaksi {
     public static void main(String[] args) {
-        
+
+        laptop adil =new laptop();
     }
 }
