@@ -9,5 +9,10 @@ public class laptop {
         System.out.println("jumlahbarang" +jumlahbarang);
         System.out.println("harga" +harga);
         System.out.println("============================");
+    }    
+     Integer liat(){
+        Integer totalbayar;
+        totalbayar = jumlahbarang*harga;
+        return totalbayar;    
     }
 }

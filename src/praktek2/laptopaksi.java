@@ -8,5 +8,6 @@ public class laptopaksi {
         adil.harga = 3000000;
         
         adil.cetakInfo();
+        System.out.println("totalpembayaran = "+adil.liat());
     }
 }
