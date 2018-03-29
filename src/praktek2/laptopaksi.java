@@ -6,5 +6,7 @@ public class laptopaksi {
         laptop adil =new laptop();
         adil.jumlahbarang = 9;
         adil.harga = 3000000;
+        
+        adil.cetakInfo();
     }
 }
